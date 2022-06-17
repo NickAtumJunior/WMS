@@ -1,12 +1,13 @@
 import { Grid } from '@mui/material'
 import React from 'react'
 
+
 function DashboardView() {
   return (
    <Grid container>
        <Grid item xs={6} md={6} >
           <Grid container sx={{
-            backgroundColor:'blue'
+            backgroundColor:'whitesmoke'
           }}>
                <Grid item xs={3} md={3}>
                   child1
@@ -26,7 +27,7 @@ function DashboardView() {
           </Grid>
        </Grid>
        <Grid item xs={6} md={6} sx={{
-         backgroundColor:'red'
+         backgroundColor:'lightyellow'
        }}>
        <Grid container>
                <Grid item xs={3} md={3}>
