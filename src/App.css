@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Poppins', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.linker{
+  margin: 1%;
+  text-decoration: none;
+  padding-left: 1%;
+  padding-top: 0.5%;
+  padding-right: 1%;
+  padding-bottom: 0.5%;
+  background-color: aliceblue;
+  border-radius: 2px;
+  box-shadow: 1px 1px 8px 1px rgb(138, 176, 153);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.linker:hover{
+  background-color:  #777;
   color: white;
+  box-shadow: 1px 1px 8px 1px rgb(35, 78, 52);
 }
-
-.App-link {
-  color: #61dafb;
+.linksignup{
+  background-color: rgb(243, 227, 201);
+  text-decoration: none;
+  font-size: medium;
+  padding: 3%;
+  color: rgb(96, 90, 90);
+  border-radius: 2px;
+  font-family: 'Poppins', sans-serif;
+  float: left;
+  margin-left: 4.6%;
+  transition: transform 700ms;
+  margin-top: -3%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linksignup:hover{
+  color: white;
+  background-color: #777;
+  transform: scale(1.05);
 }

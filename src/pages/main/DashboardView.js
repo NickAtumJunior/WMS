@@ -1,8 +1,51 @@
+import { Grid } from '@mui/material'
 import React from 'react'
 
 function DashboardView() {
   return (
-    <div>DashboardView</div>
+   <Grid container>
+       <Grid item xs={6} md={6} >
+          <Grid container sx={{
+            backgroundColor:'blue'
+          }}>
+               <Grid item xs={3} md={3}>
+                  child1
+               </Grid> 
+
+               <Grid item xs={3} md={3}>
+                  child1
+               </Grid> 
+
+               <Grid item xs={3} md={3}>
+                  child1
+               </Grid> 
+
+               <Grid item xs={3} md={3}>
+                  child1
+               </Grid> 
+          </Grid>
+       </Grid>
+       <Grid item xs={6} md={6} sx={{
+         backgroundColor:'red'
+       }}>
+       <Grid container>
+               <Grid item xs={3} md={3}>
+                  child2
+               </Grid> 
+
+               <Grid item xs={3} md={3}>
+                  child2
+               </Grid> 
+               <Grid item xs={3} md={3}>
+                  child2
+               </Grid> 
+
+               <Grid item xs={3} md={3}>
+                  child2
+               </Grid> 
+          </Grid>
+       </Grid>
+   </Grid>
   )
 }
 

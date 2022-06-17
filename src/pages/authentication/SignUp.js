@@ -48,8 +48,10 @@ export default function SignUp() {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
+            
           }}
         >
+          
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
             <LockOutlinedIcon />
           </Avatar>
@@ -66,9 +68,11 @@ export default function SignUp() {
                   fullWidth
                   id="firstName"
                   label="First Name"
+                  color='success'
                   autoFocus
                 />
               </Grid>
+              
               <Grid item xs={12} sm={6}>
                 <TextField
                   required
@@ -77,6 +81,7 @@ export default function SignUp() {
                   label="Last Name"
                   name="lastName"
                   autoComplete="family-name"
+                  color='success'
                 />
               </Grid>
               <Grid item xs={12}>
@@ -87,6 +92,7 @@ export default function SignUp() {
                   label="Email Address"
                   name="email"
                   autoComplete="email"
+                  color='success'
                 />
               </Grid>
               <Grid item xs={12}>
@@ -98,6 +104,7 @@ export default function SignUp() {
                   type="password"
                   id="password"
                   autoComplete="new-password"
+                  color='success'
                 />
               </Grid>
               <Grid item xs={12}>
@@ -112,6 +119,7 @@ export default function SignUp() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
+              color='success'
             >
               Sign Up
             </Button>
